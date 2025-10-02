@@ -1,0 +1,15 @@
+<html>
+    <body>
+        <button onclick="myFunction(5)">Execute Function</button>
+        <script>
+            function myFunction(x, y)
+            {
+                if (y===undefined)
+                {
+                    y=2;
+                }
+                document.write(x*y)
+            }
+        </script>
+    </body>
+</html>
