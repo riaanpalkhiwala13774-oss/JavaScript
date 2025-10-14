@@ -1,0 +1,10 @@
+ <html>
+    <body>
+        <h1>Arrays in javascript</h1>
+        <p id="cars"></p>
+        <script>
+            var cars=["Apple","Banana","Orange"];
+            document.getElementById("cars").innerHTML=cars[2]
+        </script>
+    </body>
+ </html>
