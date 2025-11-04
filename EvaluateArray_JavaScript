@@ -1,0 +1,18 @@
+<html>
+    <body>
+        <p>To execute javascript expressions:</p>
+        <button onclick="myFunction()">Try it</button>
+        <p id="demo"></p>
+        <script>
+            function myFunction() {
+                var x = 34;
+                var y = 67;
+                var a = eval("x + y") + "<br>";
+                var b = eval("2 + 2") + "<br>";
+                var c = ("y - x") + "<br>";
+            var res = a + b + c;
+            document.getElementById("demo").innerHTML = res;
+            }
+        </script>
+    </body>
+</html>
