@@ -1,0 +1,22 @@
+<html>
+    <body>
+        <h1>Soring arrays in javascript</h1>
+        <p>To sort the array in ascending order</p>
+        <button onclick="ascending()">Ascending order</button>
+        <p>To sort the array in he descending order</p>
+        <button onclick="descending()">Descending order</button>
+        <p id="demo"></p>
+        <script>
+            var numbers = [40,100,56,5,99];
+            document.getElementById("demo").innerHTML = numbers;
+            function ascending() {
+                numbers.sort(function(a, b){return a-b});
+                document.getElementById("demo").innerHTML = numbers;
+            }
+            function descending() {
+                numbers.sort(function(a, b){return b-a});
+                document.getElementById("demo").innerHTML = numbers;
+            }
+        </script>
+    </body>
+</html>
