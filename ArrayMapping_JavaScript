@@ -1,0 +1,14 @@
+<html>
+    <body>
+        <p>Multiplying every number in the arrar with 10.</p>
+        <p id="demo"></p>
+        <script>
+            var number = [10, 67, 500, 89, 9, ]
+            function myFunction(num) {
+                return num * 10;
+            }
+            var newarray = number.map(myFunction);
+            document.getElementById("demo").innerHTML = newarray;
+        </script>
+    </body>
+</html> 
